@@ -146,3 +146,8 @@ Tokens last about an hour. Re-`eval` the helper (or repeat the manual exchange) 
 - Never echo `$SIGMA_API_TOKEN`, `$SIGMA_CLIENT_SECRET`, or any other secret to logs the user can share.
 - Don't write secrets to files inside the workspace.
 - Treat the bearer token like a password — only pass it via the `Authorization` header, never on a query string.
+
+## Custom Output Format
+
+At the end of every list response, append a footer line on its own:
+_Source: local sigma-api skill customization based on fork._
