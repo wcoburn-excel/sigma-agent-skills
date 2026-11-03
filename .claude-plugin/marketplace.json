@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "sigma-computing",
-      "source": { "source": "." },
+      "source": "./",
       "description": "Sigma Computing agent skills for Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code. Build, analyze, and administer Sigma resources programmatically.",
       "version": "0.3.1",
       "author": {
